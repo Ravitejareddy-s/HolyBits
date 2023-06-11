@@ -10,9 +10,12 @@ const Homepage=()=>{
             <img class="logo" src={logo} alt="Logo"/>
             
             <div>
-                <span class="brackets">&lt;</span>
-                <span class="code">start coding</span>
-                <span class="brackets">/&gt;</span>
+                <Link to={'/problems'}>
+
+                    <span class="brackets">&lt;</span>
+                    <span class="code">start coding</span>
+                    <span class="brackets">/&gt;</span>
+                </Link>
             </div>
             
             <div class="line"></div>

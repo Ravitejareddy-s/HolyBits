@@ -88,6 +88,15 @@ const PROBLEMS = [
       exampleIn: "list: 1->2->3 , k=2",
       exampleOut: "1->3",
     },
+    {
+      problemId: "9",
+      title: "204. add an array element",
+      difficulty: "Hard",
+      acceptance: "42%",
+      description: "Given number k , removed kth element",
+      exampleIn: "list: 1->2->3 , k=2",
+      exampleOut: "1->3",
+    },
   ];
   
 
@@ -140,8 +149,9 @@ let mw=(req,res,next)=>{
     }
 }
 
-app.get('/problems',mw,(req,res)=>{
-    res.send(PROBLEMS)
+app.get('/problems',(req,res)=>{
+    res.json(PROBLEMS)
+    console.log("triggered")
 })
 
 app.get('/problems/:id',mw,(req,res)=>{

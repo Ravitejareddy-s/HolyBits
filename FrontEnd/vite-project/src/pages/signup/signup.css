@@ -1,0 +1,74 @@
+.zoom_container {
+    display: flex;
+    align-items: center;
+  }
+  
+  .zoom_container button,
+  .zoom_container div {
+    margin: 5px;
+  }
+
+body {
+    background-color: black;
+    color: white;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+    height: 100vh;
+    margin: 0;
+    padding: 20px; /* Adds space around the four corners */
+    font-family: 'Helvetica', sans-serif; /* Example font */
+
+}
+
+.zoom_container {
+    display: flex;
+    align-items: center;
+  }
+  
+  .zoom_container button,
+  .zoom_container div {
+    margin: 5px;
+  }
+  
+
+.brackets {
+    color: red;
+    font-size: 0.8em; /* Make </> smaller */
+}
+
+.code {
+    color: white;
+    font-size: 2em;
+    text-decoration: underline;
+    text-decoration-color: yellow;
+}
+
+.line {
+    width: 100%;
+    height: 1px;
+    background-color: gray;
+}
+
+.logo {
+    max-width: 200px;
+    height: auto;
+}
+
+.footer {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    padding: 20px 0;
+}
+
+.footer .line {
+    flex-grow: 1;
+}
+
+.footer .text {
+    color: gray;
+    padding: 0 20px;
+}

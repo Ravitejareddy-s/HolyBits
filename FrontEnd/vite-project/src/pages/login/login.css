@@ -1,0 +1,42 @@
+.logo {
+    width: 100px;
+    height: auto;
+  }
+  
+  h2 {
+    text-align: center;
+  }
+  
+  form {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 20px;
+  }
+  
+  label {
+    font-weight: bold;
+    margin-bottom: 5px;
+  }
+  
+  input[type="text"],
+  input[type="password"] {
+    width: 250px;
+    height: 30px;
+    padding: 5px;
+    margin-bottom: 10px;
+  }
+  
+  input[type="submit"] {
+    width: 100px;
+    height: 30px;
+    background-color: #4CAF50;
+    color: white;
+    border: none;
+    cursor: pointer;
+  }
+  
+  input[type="submit"]:hover {
+    background-color: #45a049;
+  }
+  
